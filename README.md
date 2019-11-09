@@ -1,4 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kreitech Test by Sebastian Barcelona
+
+## Docker Usage
+
+To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/) on your system.
+Open a terminal and run `docker-compose build && docker-compose up -d`. 
+
+Open up your browser of choice to [http://localhost:3000](http://localhost:8080) and you should see your app running as intended. 
+
+## Connect to docker container
+```
+docker exec -it client
+```
+
+## Contact
+>Email: sbarcelona@gmail.com
+
+### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

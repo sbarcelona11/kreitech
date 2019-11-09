@@ -1,0 +1,45 @@
+.profile-wrapper {
+    padding: 3vh 14vw;
+    min-height: auto;
+}
+
+.profile {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15px;
+}
+
+.profile img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+}
+
+.profile .artist-info {
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.profile .artist-info #artist-name {
+    font-size: 5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.profile .artist-info #artist-follower-count {
+    font-size: 2em;
+}
+
+
+.profile .artist-info #artist-follower-count {
+    font-size: 1.5em;
+    padding-top: 5px;
+}

@@ -1,0 +1,58 @@
+.track-search-container {
+    position: relative;
+    top: 10px;
+    color: #fff;
+}
+.search-text {
+    color: #1a1a1a;
+    font-size: 2rem;
+}
+.search {
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+input {
+    background: #fff;
+    color: #525865;
+    border-radius: 20px;
+    border: 1px solid #d1d1d1;
+    box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.45;
+    outline: none;
+    padding: 0.6em 1.45em 0.7em;
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+    margin-right: 5px;
+}
+
+input:hover {
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+input:focus {
+    color: #4b515d;
+    border: 1px solid #B8B6B6;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    margin: 60px;
+}
+
+.error {
+    color: #4b515d;
+    font-size: 1.8rem;
+}

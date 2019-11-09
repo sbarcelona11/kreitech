@@ -1,0 +1,12 @@
+.track-search-container {
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.btn:hover {background-color: #3e8e41}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
