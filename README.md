@@ -9,7 +9,7 @@ Open up your browser of choice to [http://localhost:3000](http://localhost:8080)
 
 ## Connect to docker container
 ```
-docker exec -it kreitech-test_client
+docker exec -it kreitech-test_client sh
 ```
 
 ## Contact
